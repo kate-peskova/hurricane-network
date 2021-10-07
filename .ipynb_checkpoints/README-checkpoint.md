@@ -17,4 +17,4 @@ Throughout the project, we will use a number of private and public keys. Please 
 ./geth account new --datadir node1
 ```
 We may use the password for enhanced security.
-[](Screenshots/node1.png)
+![](Screenshots/node1.png)
