@@ -17,4 +17,13 @@ Throughout the project, we will use a number of private and public keys. Please 
 ./geth account new --datadir node1
 ```
 We may use the password for enhanced security.
+
 ![](Screenshots/node1.png)
+
+Once the command is complete, make sure to backup public and private keys.
+
+2. Repeat the process to create node2 replacing the node1 to node2 in the prompt:
+```
+./geth account new --datadir node2
+```
+![](Screenshots/node2.png)
