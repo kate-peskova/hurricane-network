@@ -139,3 +139,6 @@
 23:34:48.523832 table@compaction committed F-1 S-491KiB Ke·0 D·30535 T·105.736666ms
 23:34:48.524517 table@remove removed @33
 23:34:48.524704 table@remove removed @31
+=============== Oct 7, 2021 (EDT) ===============
+00:03:17.099499 db@close closing
+00:03:17.100762 db@close done T·1.25675ms

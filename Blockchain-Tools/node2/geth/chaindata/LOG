@@ -78,3 +78,6 @@
 21:38:53.050928 version@stat F·[2 1] S·108KiB[106KiB 1KiB] Sc·[0.50 0.00]
 21:38:53.129827 db@janitor F·5 G·0
 21:38:53.129915 db@open done T·115.053417ms
+=============== Oct 7, 2021 (EDT) ===============
+00:03:05.371527 db@close closing
+00:03:05.389780 db@close done T·18.234833ms

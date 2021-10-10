@@ -121,3 +121,6 @@
 21:36:27.498784 db@janitor F·5 G·1
 21:36:27.498812 db@janitor removing table-24
 21:36:27.498936 db@open done T·96.377292ms
+=============== Oct 7, 2021 (EDT) ===============
+00:03:16.635673 db@close closing
+00:03:16.638107 db@close done T·2.42825ms
