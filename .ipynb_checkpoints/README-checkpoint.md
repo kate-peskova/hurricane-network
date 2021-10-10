@@ -10,7 +10,7 @@ Throughout the project, we will use a number of private and public keys. Please 
 
 **Creating MyCrypto hot wallet**. To create our brand-new network, we need a crypto wallet address. We would fetch the addresses after we create our nodes (this step will be explained further down). To be able to access our wallets through the UI, we would need to download and istall [MyCrypto](https://download.mycrypto.com/) app.
 
-**Creating the node directories**. Once we are all set up with the tools, we can start building our blockchain. In order to do this, we would first create the node directories using “geth” command and create new wallet addresses within them.
+**Creating the node directories.** Once we are all set up with the tools, we can start building our blockchain. In order to do this, we would first create the node directories using “geth” command and create new wallet addresses within them.
 
 1. To create the first node, type in the following command:
 ```
@@ -27,3 +27,20 @@ Once the command is complete, make sure to backup public and private keys.
 ./geth account new --datadir node2
 ```
 ![](Screenshots/node2.png)
+
+**Creating the Genesis Block.** Now let’s create our genesis block in our soon-to-be blockchain.
+1. Navigate to the Blockchain-Tools directory inside our project and type the command `./puppeth .`
+
+![](Screenshots/node2.png)
+
+2.	Create a new network by typing its name as a command. In this project, we are creating the Hurricane network.
+<genesis screen2> 
+3.	In the wizard, we pick 2 to “Configure new genesis”
+<genesis screen3>
+4.	Then pick 1 to “Create new genesis from scratch”
+<genesis screen4>
+5.	Since we are creating Proof of Authority network, we would pick 2 in the next prompt and choose the default 15-second timeframe for the block by hitting enter
+<genesis screen5>
+6.	Now, let’s get back to our wallet addresses withing the nodes and copy them to seal the accounts (leave out 0x part)
+<genesis screen6>
+<genesis screen7>
