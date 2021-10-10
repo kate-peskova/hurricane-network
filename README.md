@@ -33,14 +33,24 @@ Once the command is complete, make sure to backup public and private keys.
 
 ![](Screenshots/genesis1.png)
 
-2.	Create a new network by typing its name as a command. In this project, we are creating the Hurricane network.
-<genesis screen2> 
-3.	In the wizard, we pick 2 to “Configure new genesis”
-<genesis screen3>
-4.	Then pick 1 to “Create new genesis from scratch”
-<genesis screen4>
-5.	Since we are creating Proof of Authority network, we would pick 2 in the next prompt and choose the default 15-second timeframe for the block by hitting enter
-<genesis screen5>
-6.	Now, let’s get back to our wallet addresses withing the nodes and copy them to seal the accounts (leave out 0x part)
-<genesis screen6>
+2. Create a new network by typing its name as a command. In this project, we are creating the Hurricane network.
+
+![](Screenshots/genesis2.png)
+
+3. In the wizard, pick 2 to “Configure new genesis”.
+
+![](Screenshots/genesis3.png)
+
+4. Pick 1 to “Create new genesis from scratch”.
+
+![](Screenshots/genesis4.png)
+
+5. Since we are creating Proof of Authority network, pick 2 in the next prompt and choose the default 15-second timeframe for the block by hitting enter.
+
+![](Screenshots/genesis5.png)
+
+6. Now, let’s get back to our wallet addresses withing the nodes and copy them to seal the accounts (leave out 0x part).
+
+![](Screenshots/genesis6.png)
+
 <genesis screen7>
