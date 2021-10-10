@@ -63,3 +63,22 @@ Once the command is complete, make sure to backup public and private keys.
 
 ![](Screenshots/genesis9.png)
 
+**Preparing the chain to life.** To make the chain truly functional, we need to go through a few more steps.
+
+1. First, let’s get back to the _puppeth_ prompt and select _Manage existing genesis_ by typing 2.
+
+![](Screenshots/node-init1.png)
+
+2. Second, we need to create our hurricane.json file to define the structure of our blockchain. To do so, select 2 in the next prompt, _Export genesis configurations_. Then choose the hurricane.json file and ignore the rest.
+
+![](Screenshots/node-init2.png)
+
+3.	Finally, let’s connect our nodes to the Hurricane network by initializing them. Use the following commands to initialize the nodes:
+```
+./geth init hurricane/hurricane.json --datadir node1
+
+./geth init hurricane/hurricane.json --datadir node2
+```
+![](Screenshots/node-init3.png)
+
+![](Screenshots/node-init4.png)
