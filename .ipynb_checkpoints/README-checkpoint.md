@@ -29,9 +29,9 @@ Once the command is complete, make sure to backup public and private keys.
 ![](Screenshots/node2.png)
 
 **Creating the Genesis Block.** Now let’s create our genesis block in our soon-to-be blockchain.
-1. Navigate to the Blockchain-Tools directory inside our project and type the command `./puppeth .`
+1. Navigate to the Blockchain-Tools directory inside our project and type the command `./puppeth` .
 
-![](Screenshots/node2.png)
+![](Screenshots/genesis1.png)
 
 2.	Create a new network by typing its name as a command. In this project, we are creating the Hurricane network.
 <genesis screen2> 
