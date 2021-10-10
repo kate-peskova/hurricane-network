@@ -111,3 +111,5 @@
 01:01:01.487060 version@stat F·[0 1] S·756KiB[0B 756KiB] Sc·[0.00 0.01]
 01:01:01.507310 table@compaction committed F-1 S-574KiB Ke·0 D·23418 T·88.031708ms
 01:01:01.508738 table@remove removed @23
+01:27:31.744944 db@close closing
+01:27:31.745783 db@close done T·833.333µs

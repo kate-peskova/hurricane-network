@@ -105,3 +105,32 @@ Once the enode has been located, open a new terminal window and run the followin
 
 The blockchain is now live and producing blocks.
 
+![](Screenshots/block1.png)
+
+![](Screenshots/block2.png)
+
+**Transferring testnet Eth.** Now that our blockchain is up and running, let’s go ahead and transfer some funds from one wallet to another.
+
+1. Let’s go back to MyCrypto wallet app that we downloaded a few steps ago and select our brand new Hurricane network.
+
+![](Screenshots/wallet.png)
+
+2. Select _custom_ network in the wallet and fill out the setting for our custom network.
+
+![](Screenshots/custom-network.png)
+
+3. Access the wallet through keystore file.
+
+![](Screenshots/keystore-file.png)
+
+4. The existing balance inside the wallet is a proof of our blockchain running and mining the blocks. Now let’s make a transaction. Insert the second wallet’s address, the amount, and the currency into the corresponding fields and click _Send_, then _Confirm_.
+
+![](Screenshots/send.png)
+
+![](Screenshots/confirm.png)
+
+5. Confirm the transaction by clicking _Check TX Status_ button.
+
+![](Screenshots/tx-status.png)
+
+The transaction went through successfully. Congratulations, we have created our first blockchain from scratch!
