@@ -53,4 +53,13 @@ Once the command is complete, make sure to backup public and private keys.
 
 ![](Screenshots/genesis6.png)
 
-<genesis screen7>
+![](Screenshots/genesis7.png)
+
+7. Insert same addresses again in the pre-fund prompt, but choose _no_ to pre-fund option to keep genesis cleaner.
+
+![](Screenshots/genesis8.png)
+
+8. The last step in creating the genesis block is to declare a number to use it as a chain ID. In our case, it would be _177_.
+
+![](Screenshots/genesis9.png)
+
