@@ -82,3 +82,26 @@ Once the command is complete, make sure to backup public and private keys.
 ![](Screenshots/node-init3.png)
 
 ![](Screenshots/node-init4.png)
+
+**Running the nodes.** We are ready to go live! Let’s run the nodes.
+
+1. Both our nodes will need to run each in its own terminal window. For this, start fresh opening a new terminal window to run the first node. In the first window, navigate to our _Blockchain-Tools_ folder and run the following command:
+```
+./geth --datadir node1 --unlock "0x70133fA72d761DacAC295edf7bd51F5F13B89379" --mine --rpc --allow-insecure-unlock
+```
+
+![](Screenshots/running-node1.png)
+
+2. To run the second node, we first need to locate the enode in the first node:
+
+![](Screenshots/enode.png)
+
+Once the enode has been located, open a new terminal window and run the following command that contains this enode:
+```
+./geth --datadir node2 --unlock "0xf16f4989cBd9D4fb2CDbdc815aa645BFEF09Bc02" --mine --port 30304 --bootnodes "enode://fa4610cdfc3f23ae43c9fc79c8a51703431d6bcd9ecbec52859e64b64657795eae57b80f3530ace9703ac02b90ba30a798a065bf9a4b26c95834b1316fc4b423@127.0.0.1:30303 " --ipcdisable --allow-insecure-unlock
+```
+
+![](Screenshots/running-node2.png)
+
+The blockchain is now live and producing blocks.
+
